@@ -1,0 +1,25 @@
+/* Plik style.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#logo {
+    max-width: 50%; /* Powiększone logo */
+    height: auto;
+    transition: transform 0.3s ease; /* Ustawienie animacji */
+}
+#logo:hover {
+    transform: scale(0.9); /* Zmniejszenie logo o 10% */
+}
+.slogan {
+    font-size: 2em; /* Większe nagłówki */
+    margin-top: 20px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome -->
+    <title>Oferta - MRAL SP. Z O.O.</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: white;
+        }
+        .navbar {
+            justify-content: center;
+        }
+        .nav-link {
+            color: black;
+            text-decoration: none;
+            font-size: 1.5rem;
+            margin: 0 15px;
+        }
+        .nav-link:hover {
+            text-decoration: none;
+        }
+        .container {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .header {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .logo {
+            max-width: 150px;
+            height: auto;
+        }
+        .table-container {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #f8f9fa;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #343a40;
+            color: white;
+        }
+        td {
+            color: #333;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .service-container {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 30px; /* Odstęp między ikonami */
+        }
+        .service {
+            text-align: center;
+            color: #007bff;
+            transition: transform 0.3s;
+        }
+        .service i {
+            font-size: 3rem; /* Rozmiar ikon */
+            display: block;
+            margin-bottom: 10px; /* Odstęp między ikoną a tekstem */
+        }
+        .service:hover {
+            transform: scale(1.1);
+        }
+        .service {
+            text-align: center;
+            color: black; /* Zmiana koloru na czarny */
+            transition: transform 0.3s;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Nawigacja z logo -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="zdjęcia/architekt-nysa-logo.jpg" alt="Logo" class="logo">
+            </a>
+            <div class="collapse navbar-collapse justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="onas.html">O nas</a></li> <!-- Link do "O nas" -->
+                    <li class="nav-item"><a class="nav-link" href="oferta.html">Oferta</a></li> <!-- Link do "Oferta" -->
+                    <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li> <!-- Link do "Kontakt" -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Nagłówek strony -->
+    <div class="container">
+        <h2 class="header">Oferta</h2>
+
+        <!-- Tabelka z ofertą -->
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th>Oferta dla klientów indywidualnych</th>
+                    <th>Oferta dla deweloperów</th>
+                    <th>Oferta dla firm</th>
+                </tr>
+                <tr>
+                    <td>Projekty domów jednorodzinnych</td>
+                    <td>Koncepcje architektoniczne i analiza chłonności</td>
+                    <td>Projekty hal</td>
+                </tr>
+                <tr>
+                    <td>Projekty indywidualne</td>
+                    <td>Projekty budynków wielorodzinnych</td>
+                    <td>Projekty budynków biurowych</td>
+                </tr>
+                <tr>
+                    <td>Projekty gotowe</td>
+                    <td>Projekty powtarzalnych budynków jednorodzinnych</td>
+                    <td>Budynki usługowe i handlowe</td>
+                </tr>
+                <tr>
+                    <td>Adaptację projektów gotowych/typowych</td>
+                    <td>Projekty budowlane</td>
+                    <td>Wnętrza komercyjne</td>
+                </tr>
+                <tr>
+                    <td>Projekty garaży/wiat</td>
+                    <td>Projekty wykonawcze</td>
+                    <td>Projekty wykonawcze</td>
+                </tr>
+                <tr>
+                    <td>Dobudowy, rozbudowy, przebudowy</td>
+                </tr>
+                <tr>
+                    <td>Inwentaryzacje budowlane</td>
+                </tr>
+                <tr>
+                    <td>Koncepcje architektoniczne</td>
+                </tr>
+                <tr>
+                    <td>Projekty pełnobranżowe</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Tematyczne usługi -->
+        <div class="service-container">
+            <div class="service">
+                <i class="fas fa-comments"></i>
+                <span>KOMPLEKSOWE DORADZTWO</span>
+            </div>
+            <div class="service">
+                <i class="fas fa-pencil-alt"></i>
+                <span>NADZORY AUTORSKIE</span>
+            </div>
+            <div class="service">
+                <i class="fas fa-file-alt"></i>
+                <span>NIEZBĘDNE FORMALNOŚCI</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
